@@ -1,0 +1,39 @@
+.col-w {
+   
+    width: 25rem;
+}
+
+input{
+   border: 0; 
+}
+input:active{
+    border: none !important;
+    outline: none !important;
+}
+/* input ::after{
+    border: 0 !important;
+} */
+td{
+    height: 1rem;
+    width: 4dvb;
+}
+input textarea{
+    height: 2rem;
+    font-size: small;
+    /* width: 4dvb !important; */
+}
+textarea{
+    font-size: small;
+}
+.date-td{
+    width: 6rem !important;
+}
+input:focus{
+    border: 1px solid black;
+    background-color: white !important;
+}
+input:disabled{
+    background-color: white !important;
+    border: 0 !important;
+    color: rgb(129, 129, 129);
+}
